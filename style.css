@@ -1,0 +1,33 @@
+    * {
+        margin: 0 auto;
+        /* box-sizing: border-box; */
+        background-color: black;
+        color: seashell;
+    }
+    /* header {
+        position: fixed;
+    } */
+    
+    .container {
+        margin: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-shrink: 1;
+    }
+    
+    .flex-child {
+        /* padding-left: 0; */
+    }
+    
+    .logo>img {
+        width: 8.5rem;
+        margin-left: 5px;
+    }
+    
+    nav>ul {
+        padding-bottom: 10px;
+        display: inline-flex;
+        text-decoration: underline;
+        margin-right: 25px;
+    }
